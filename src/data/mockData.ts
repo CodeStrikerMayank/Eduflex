@@ -1,4 +1,5 @@
 import { Stream, College, Course, Exam, Review, Question, Article } from '@/types';
+import { ONBOARD_COLLEGES } from './onboardColleges';
 
 export const STREAMS: Stream[] = [
   {
@@ -862,7 +863,8 @@ export const COLLEGES: College[] = [
     cutoffs: [
       { courseName: 'B.Tech CSE', examName: 'JEE Main', year: 2025, category: 'GEN', roundNo: 1, openingRank: 1000, closingRank: 7500, quota: 'All India' }
     ]
-  }
+  },
+  ...ONBOARD_COLLEGES
 ];
 
 export const REVIEWS: Review[] = [
