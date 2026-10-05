@@ -1,0 +1,31 @@
+{
+  "name": "eduflex",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "15.1.7",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "lucide-react": "^1.52.0",
+    "@supabase/supabase-js": "^2.117.2",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.1.7",
+    "jiti": "^2.4.2",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
